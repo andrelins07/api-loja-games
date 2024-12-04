@@ -24,7 +24,7 @@ public class Produto {
 	@NotNull
 	private Double preco;
 	
-	@ManyToOne()
+	@ManyToOne
 	@JsonIgnoreProperties("produtos")
 	private Categoria categoria;
 	
